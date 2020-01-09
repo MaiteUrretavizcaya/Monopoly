@@ -1,31 +1,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>iso2</groupId>
-  <artifactId>Monopoly</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>iso2</groupId>
+	<artifactId>Monopoly</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>Monopoly</name>
-  <url>http://maven.apache.org</url>
+	<name>Monopoly</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-      <maven.compiler.target>1.8</maven.compiler.target>
-      <sonar.projectKey>Monopoly</sonar.projectKey>   
-      <sonar.organization>maiteurretavizcaya</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-    <sonar.login>fd9be24324166b8feb458d75bc396747276d6f31</sonar.login> 
-  </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<sonar.projectKey>MaiteUrretavizcaya_Monopoly</sonar.projectKey>
+		<sonar.organization>maiteurretavizcaya</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>ec27d34b75e2634a613a6fc6fc761250e32b0150</sonar.login>
+	</properties>
 
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
